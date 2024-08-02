@@ -25,7 +25,7 @@ export class ListComponent {
     onDeleteCharacter(id?: string): void{
       // TODO: Emitir el ID del personaje
       // console.log({index});
-      if(!id) return;
+      if(!id) return;// si el id es nulo retorna nada
       this.onDelete.emit(id);
     }
 }
